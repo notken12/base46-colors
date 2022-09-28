@@ -2,6 +2,7 @@ local colors = {
   white = "#edeff0",
   darker_black = "#060809",
   black = "#0c0e0f",
+  black2 = "#0d181c",
   lighter_black = "#121415",
   one_bg = "#161819",
   one_bg2 = "#1f2122",

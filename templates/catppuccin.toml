@@ -410,4 +410,4 @@ ToggleTerm1FloatBorder = 'line'
 
 [Illuminate]
 IlluminatedWordText = '- base02 - -'
-IlluminatedWordRead = 'link:IlluminatedWordText'
+IlluminatedWordRead = '- base02 - -'

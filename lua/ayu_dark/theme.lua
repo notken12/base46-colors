@@ -1,5 +1,5 @@
 
-local c = require('monekai.palette')
+local c = require('ayu_dark.palette')
 
 local hl = vim.api.nvim_set_hl
 local theme = {}

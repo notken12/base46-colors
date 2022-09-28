@@ -336,7 +336,7 @@ theme.set_highlights = function()
 
   -- Illuminate
   hl(0, "IlluminatedWordText", { fg = 'NONE', bg = c.base02, sp = 'NONE',  })
-  hl(0, "IlluminatedWordRead", { link = 'IlluminatedWordText' })
+  hl(0, "IlluminatedWordRead", { fg = 'NONE', bg = c.base02, sp = 'NONE',  })
 end
 
 return theme
