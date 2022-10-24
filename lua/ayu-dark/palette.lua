@@ -1,9 +1,7 @@
-local M = {}
-
-M.base_30 = {
+local colors = {
   white = "#ced4df",
   darker_black = "#05080e",
-  black = "#0B0E14", --  nvim bg
+  black = "#0B0E14",
   black2 = "#14171d",
   one_bg = "#1c1f25",
   one_bg2 = "#24272d",
@@ -15,7 +13,7 @@ M.base_30 = {
   red = "#F07178",
   baby_pink = "#ff949b",
   pink = "#ff8087",
-  line = "#24272d", -- for lines like vertsplit
+  line = "#24272d",
   green = "#AAD84C",
   vibrant_green = "#b9e75b",
   blue = "#36A3D9",
@@ -31,9 +29,6 @@ M.base_30 = {
   lightbg = "#24272d",
   pmenu_bg = "#ff9445",
   folder_bg = "#98a3af",
-}
-
-M.base_16 = {
   base00 = "#0B0E14",
   base01 = "#1c1f25",
   base02 = "#24272d",
@@ -52,17 +47,4 @@ M.base_16 = {
   base0F = "#CBA6F7",
 }
 
-M.polish_hl = {
-  TSTagDelimiter = { fg = M.base_30.cyan },
-  TSFunction = { fg = M.base_30.orange },
-  luaTSField = { fg = M.base_16.base0D },
-  TSParameter = { fg = M.base_16.base0F },
-  TSConstructor = { fg = M.base_16.base0A },
-  TSTagAttribute = { fg = M.base_30.orange },
-}
-
-M = require("base46").override_theme(M, "ayu-dark")
-
-vim.opt.bg = "dark"
-
-return M
+return colors

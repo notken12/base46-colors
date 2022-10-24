@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # import required module
 import os
 import itertools
