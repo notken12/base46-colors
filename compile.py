@@ -24,7 +24,7 @@ for filename in os.listdir(directory):
     f = os.path.join(directory, filename)
     # checking if it is a file
     if os.path.isfile(f):
-        themename = filename.split('.')[0]
+        themename = filename.split('.')[0].replace('-', '_')
         palette = ''
         bg = 'dark'
         with open(f, "r") as text_file:
