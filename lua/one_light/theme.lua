@@ -166,11 +166,12 @@ theme.set_highlights = function()
   hl(0, "markdownEscape", { fg = c.yellow, bg = 'NONE' })
 
   -- Whichkey
-  hl(0, "WhichKey", { fg = c.purple, bg = 'NONE' })
-  hl(0, "WhichKeySeperator", { fg = c.green, bg = 'NONE' })
-  hl(0, "WhichKeyGroup", { fg = c.blue, bg = 'NONE' })
-  hl(0, "WhichKeyDesc", { fg = c.cyan, bg = 'NONE' })
-  hl(0, "WhichKeyFloat", { fg = 'NONE', bg = c.base01 })
+  hl(0, "WhichKey", { fg = c.blue, bg = 'NONE' })
+  hl(0, "WhichKeySeperator", { fg = c.light_grey, bg = 'NONE' })
+  hl(0, "WhichKeyDesc", { fg = c.red, bg = 'NONE' })
+  hl(0, "WhichKeyGroup", { fg = c.green, bg = 'NONE' })
+  hl(0, "WhichKeyValue", { fg = c.green, bg = 'NONE' })
+  hl(0, "WhichKeyFloat", { link = 'NormalFloat' })
 
   -- Git
   hl(0, "SignAdd", { fg = c.green, bg = 'NONE' })
@@ -336,7 +337,6 @@ theme.set_highlights = function()
 
   -- Illuminate
   hl(0, "IlluminatedWordText", { fg = 'NONE', bg = c.base02, sp = 'NONE',  })
-  hl(0, "IlluminatedWordRead", { fg = 'NONE', bg = c.base02, sp = 'NONE',  })
 end
 
 return theme

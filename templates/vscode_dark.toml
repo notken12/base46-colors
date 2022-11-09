@@ -237,11 +237,12 @@ markdownFootnoteDefinition = 'orange'
 markdownEscape = 'yellow'
 
 [Whichkey]
-WhichKey = 'purple'
-WhichKeySeperator = 'green'
-WhichKeyGroup = 'blue'
-WhichKeyDesc = 'cyan'
-WhichKeyFloat = '- base01'
+WhichKey = 'blue'
+WhichKeySeperator = 'light_grey'
+WhichKeyDesc = 'red'
+WhichKeyGroup = 'green'
+WhichKeyValue = 'green'
+WhichKeyFloat = 'link:NormalFloat'
 
 [Git]
 SignAdd = 'green'
@@ -411,4 +412,3 @@ ToggleTerm1FloatBorder = 'line'
 
 [Illuminate]
 IlluminatedWordText = '- base02 - -'
-IlluminatedWordRead = '- base02 - -'
