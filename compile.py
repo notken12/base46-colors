@@ -14,9 +14,12 @@ with open(os.path.join('src', 'template-nvchad.toml'), "r") as text_file:
 
 if not os.path.exists('templates'):
     os.mkdir('templates')
- 
+
 if not os.path.exists('compiled'):
     os.mkdir('compiled')
+
+os.system('rm -r lua')
+os.system('rm -r colors')
 
 # iterate over files in
 # that directory
@@ -35,7 +38,8 @@ for filename in os.listdir(directory):
                 if started:
                     if '}' in line:
                         brackets += 1
-                    line = line.replace("--", "#").replace(",","").replace('{','').replace('}','').replace('M.base_16 =','').strip()
+                    line = line.replace("--", "#").replace(",", "").replace(
+                        '{', '').replace('}', '').replace('M.base_16 =', '').strip()
                     if len(line) > 0:
                         palette += line + '\n'
                     if brackets >= 2:
@@ -59,3 +63,5 @@ for filename in os.listdir(directory):
         os.system("cd compiled && colorgen-nvim ../" + template_path)
         os.system('cp -r compiled/' + themename + '/colors .')
         os.system('cp -r compiled/' + themename + '/lua .')
+
+os.system('rm -r compiled')
