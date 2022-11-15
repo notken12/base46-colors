@@ -4,7 +4,7 @@
 import os
 import itertools
 # assign directory
-directory = 'src/themes'
+directory = 'src/base46/lua/base46/themes'
 
 highlights = ''
 
