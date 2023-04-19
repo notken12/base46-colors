@@ -4,7 +4,7 @@ local theme = require('onenord_light.theme')
 M.setup = function()
   vim.cmd('hi clear')
 
-  vim.o.background = 'light'
+  vim.o.background = 'dark'
   if vim.fn.exists('syntax_on') then
     vim.cmd('syntax reset')
   end

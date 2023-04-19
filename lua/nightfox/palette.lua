@@ -44,7 +44,7 @@ local colors = {
   base0C = "#7ad4d6",
   base0D = "#86abdc",
   base0E = "#9d79d6",
-  base0F = "#d85e7c",
+  base0F = "#c0c8d5",
 }
 
 return colors

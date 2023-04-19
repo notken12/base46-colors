@@ -17,7 +17,7 @@ local colors = {
   green = "#98be65",
   vibrant_green = "#a9cf76",
   nord_blue = "#47a5e5",
-  blue = "#61afef",
+  blue = "#51afef",
   yellow = "#ECBE7B",
   sun = "#f2c481",
   purple = "#dc8ef3",
@@ -42,8 +42,8 @@ local colors = {
   base0A = "#ECBE7B",
   base0B = "#98be65",
   base0C = "#66c4ff",
-  base0D = "#48a6e6",
-  base0E = "#9c94d4",
+  base0D = "#dc8ef3",
+  base0E = "#48a6e6",
   base0F = "#c85a50",
 }
 

@@ -1,13 +1,13 @@
 [information]
 name="ayu_light"
 author="Ken Zhou <kendotzhou@gmail.com>"
-background="light"
+background="dark"
 
 [palette]
 white = "#26292f"
-darker_black = "#ededed"
+darker_black = "#f3f3f3"
 black = "#fafafa" #  nvim bg
-black2 = "#e3e3e3"
+black2 = "#efefef"
 one_bg = "#ebebeb"
 one_bg2 = "#e1e1e1" # Highlight of context
 one_bg3 = "#d7d7d7"
@@ -36,8 +36,8 @@ pmenu_bg = "#95E6CB"
 folder_bg = "#5C6166"
 base00 = "#fafafa"
 base01 = "#f0f0f0"
-base02 = "#e6e6e6"
-base03 = "#dcdcdc"
+base02 = "#eeeeee"
+base03 = "#dfdfdf"
 base04 = "#d2d2d2"
 base05 = "#5C6166"
 base06 = "#52575c"

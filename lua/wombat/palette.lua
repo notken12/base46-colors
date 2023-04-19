@@ -37,13 +37,13 @@ local colors = {
   base05 = "#d6d2c9",
   base06 = "#ddd9d0",
   base07 = "#e4e0d7",
-  base08 = "#FF8F7E",
-  base09 = "#FFCC66",
+  base08 = "#FFCC66",
+  base09 = "#dc8cff",
   base0A = "#efdeab",
   base0B = "#AEE474",
   base0C = "#7EB6BC",
   base0D = "#88B8F6",
-  base0E = "#dc8cff",
+  base0E = "#FF8F7E",
   base0F = "#dc8c64",
 }
 

@@ -1,7 +1,7 @@
 [information]
 name="one_light"
 author="Ken Zhou <kendotzhou@gmail.com>"
-background="light"
+background="dark"
 
 [palette]
 white = "#54555b"
