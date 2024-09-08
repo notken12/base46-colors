@@ -1,4 +1,4 @@
-local c = require('ashes.palette')
+local c = require('chadracula_evondev.palette')
 
 local hl = vim.api.nvim_set_hl
 local theme = {}
