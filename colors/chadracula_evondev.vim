@@ -1,4 +1,4 @@
 lua << EOF
-local aquarium = require("chadracula_evondev")
-aquarium.setup({})
+local chadracula_evondev = require("chadracula_evondev")
+chadracula_evondev.setup({})
 EOF

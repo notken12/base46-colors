@@ -32,7 +32,6 @@ local colors = {
   violet = "#9A86FD",
   darkgreen = "#1B312E",
   brownred = "#5D2932",
-
   base00 = "#141423",
   base01 = "#23233d",
   base02 = "#2b2b4c",

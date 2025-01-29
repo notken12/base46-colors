@@ -1,0 +1,3 @@
+[submodule "src/base46"]
+	path = src/base46
+	url = https://github.com/NvChad/base46

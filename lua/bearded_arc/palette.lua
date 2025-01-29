@@ -1,6 +1,6 @@
 local colors = {
   white = "#ABB7C1",
-  darker_black = "#151d2c",
+  darker_black = "#19212e",
   black = "#1c2433",
   black2 = "#232b3a",
   one_bg = "#262e3d",
@@ -20,7 +20,7 @@ local colors = {
   blue = "#69C3FF",
   yellow = "#EACD61",
   sun = "#f6d96d",
-  purple = "#B788E5",
+  purple = "#bd93ff",
   dark_purple = "#B78AFF",
   teal = "#12c7c4",
   orange = "#FF955C",
@@ -44,7 +44,7 @@ local colors = {
   base0C = "#77aed7",
   base0D = "#69C3FF",
   base0E = "#22ECDB",
-  base0F = "#FF738A",
+  base0F = "#B78AFF",
 }
 
 return colors

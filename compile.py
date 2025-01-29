@@ -9,7 +9,7 @@ directory = 'src/base46/lua/base46/themes'
 highlights = ''
 
 with open(os.path.join('src', 'template-nvchad.toml'), "r") as text_file:
-    for line in itertools.islice(text_file, 7, 366):
+    for line in itertools.islice(text_file, 7, 409):
         highlights += line
 
 if not os.path.exists('templates'):
@@ -40,6 +40,12 @@ for filename in os.listdir(directory):
                         brackets += 1
                     line = line.replace("--", "#").replace(",", "").replace(
                         '{', '').replace('}', '').replace('M.base_16 =', '').strip()
+                    if "M.base_30" in line:
+                        colorname = line.split('M.base_30.')[1].strip()
+                        for color in palette.splitlines():
+                            if color.split("=")[0].strip() == colorname:
+                                line = line.split("=")[0].strip(
+                                ) + ' = ' + color.split('=')[1].strip() + '\n'
                     if len(line) > 0:
                         palette += line + '\n'
                     if brackets >= 2:
